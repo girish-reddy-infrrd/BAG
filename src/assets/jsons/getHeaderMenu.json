@@ -1,0 +1,101 @@
+{
+  "data": {
+    "menus": [
+      {
+        "name": "Home",
+        "key": "home",
+        "route": "/HOME",
+        "icon": "fa fa-bell",
+        "subMenus": []
+      },
+      {
+        "name": "Groceries",
+        "key": "groceries",
+        "route": "/categories",
+        "icon": "fa fa-bell",
+        "subMenus": [
+          {
+            "name": "Home Care",
+            "route": "/categories",
+            "list": [
+              {
+                "name": "Washroom",
+                "key": "washroom"
+              },
+              {
+                "name": "Kitchen",
+                "key": "kitchen"
+              }
+            ]
+          },
+          {
+            "name": "Personal Care",
+            "route": "/categories",
+            "list": [
+              {
+                "name": "Soaps",
+                "key": "soaps"
+              },
+              {
+                "name": "Shampoos",
+                "key": "shampoos"
+              },
+              {
+                "name": "Body Lotions",
+                "key": "bodyLotions"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fruits",
+        "key": "fruits",
+        "route": "/categories",
+        "icon": "fa fa-bell",
+        "subMenus": [
+          {
+            "name": "Fresh Fruits",
+            "route": "/categories",
+            "list": [
+              {
+                "name": "Fruits",
+                "key": "fruits"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vegetables",
+        "key": "vegetables",
+        "route": "/categories",
+        "icon": "fa fa-bell",
+        "subMenus": [
+          {
+            "name": "Leafy Vegetables",
+            "route": "/categories",
+            "list": [
+              {
+                "name": "Green Leaf Vegetables",
+                "key": "greenLeafVegetables"
+              }
+            ]
+          },
+          {
+            "name": "Fresh Vegetables",
+            "route": "/categories",
+            "list": [
+              {
+                "name": "Vegetables",
+                "key": "vegetables"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "status": "success",
+  "message": "success"
+}

@@ -1,0 +1,25 @@
+{
+    "status": "success",
+    "tableData": {
+        "headerContent": [
+            {
+                "label": "Store Name",
+                "key": "storeName"
+            },
+            {
+                "label": "Location",
+                "key": "location"
+            }
+        ],
+        "bodyContent": [
+            {
+                "storeName": "Sangeetha Store", 
+                "location": "Bommanahalli"               
+            },
+            {
+                "storeName": "Geetha Store", 
+                "location": "Bommanahalli"               
+            }
+        ]
+    }
+}

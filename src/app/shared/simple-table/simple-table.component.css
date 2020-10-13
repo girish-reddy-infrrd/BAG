@@ -1,0 +1,57 @@
+.table thead th:last-child {
+    width: 200px !important;
+    max-width: 200px !important;
+}
+
+.ng-select-container {
+    border: none !important;
+}
+.btn.disabled, .btn:disabled {
+    cursor: not-allowed;
+}
+.table{
+    background-color: #fff !important;
+}
+.table thead th{
+    border:none !important;
+}
+.table th, .table td {
+    padding: 0.35rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}
+.table .form-control{
+    border:none !important;
+    border-radius: 0 !important;
+}
+.table .form-control:focus{
+    border:none !important;
+    box-shadow: unset !important;
+    border-radius: 0 !important;
+    border-color: unset !important;
+}
+.table thead{
+    background-color: #ccc !important;
+    border-radius: 0 !important;
+}
+.btn{
+    height: calc(2.25rem + 2px);
+    border-radius: 0;
+}
+.action-icon{
+    padding:5px;
+    cursor: pointer;
+}
+.projectsList{
+    background-color: #000;
+    color: #fff;
+    padding: 0px 10px !important;
+    border-radius: 19px;
+    margin-top: 3px;
+    height: 25px;
+    width: auto;
+    text-align: center;
+    vertical-align: baseline;
+    margin-right: 7px !important;
+}

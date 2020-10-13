@@ -1,0 +1,408 @@
+<div id="all">
+    <div id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- breadcrumb-->
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li aria-current="page" class="breadcrumb-item active">Shopping cart</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div id="basket" class="col-lg-8">
+                    <div class="box">
+                        <form  *ngIf="cartPage">
+                            <h1>Shopping cart</h1>
+                            <p class="text-muted">You currently have 3 item(s) in your cart.</p>
+                            <div class="table-responsive" >
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2">Product</th>
+                                            <th>Quantity</th>
+                                            <th>Unit price</th>
+                                            <th>Discount</th>
+                                            <th colspan="2">Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><a href="#"><img src="assets/images/detailsquare.jpg"
+                                                        alt="White Blouse Armani"></a></td>
+                                            <td><a href="#">White Blouse Armani</a></td>
+                                            <td>
+                                                <input type="number" value="2" class="form-control">
+                                            </td>
+                                            <td>₹123.00</td>
+                                            <td>₹0.00</td>
+                                            <td>₹246.00</td>
+                                            <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="#"><img src="assets/images/basketsquare.jpg"
+                                                        alt="Black Blouse Armani"></a></td>
+                                            <td><a href="#">Black Blouse Armani</a></td>
+                                            <td>
+                                                <input type="number" value="1" class="form-control">
+                                            </td>
+                                            <td>₹200.00</td>
+                                            <td>₹0.00</td>
+                                            <td>₹200.00</td>
+                                            <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th colspan="5">Total</th>
+                                            <th colspan="2">₹446.00</th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </form>
+                        <form  *ngIf="checkoutOne">
+                            <h1>Checkout - Address</h1>
+                            <div class="nav flex-column flex-md-row nav-pills text-center"><a href="javascript:void(0)" class="nav-link flex-sm-fill text-sm-center active"> <i class="fa fa-map-marker">                  </i>Address</a><a href="#" class="nav-link flex-sm-fill text-sm-center disabled"> <i class="fa fa-truck">                       </i>Delivery Method</a><a href="#" class="nav-link flex-sm-fill text-sm-center disabled"> <i class="fa fa-money">                      </i>Payment Method</a><a href="#" class="nav-link flex-sm-fill text-sm-center disabled"> <i class="fa fa-eye">                     </i>Order Review</a></div>
+                            <div class="content py-3">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="firstname">Firstname</label>
+                                    <input id="firstname" type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="lastname">Lastname</label>
+                                    <input id="lastname" type="text" class="form-control">
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /.row-->
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="company">Door Number</label>
+                                    <input id="company" type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="street">Street</label>
+                                    <input id="street" type="text" class="form-control">
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /.row-->
+                              <div class="row">
+                                <div class="col-md-6 col-lg-3">
+                                  <div class="form-group">
+                                    <label for="city">Land Mark</label>
+                                    <input id="city" type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                  <div class="form-group">
+                                    <label for="zip">PIN</label>
+                                    <input id="zip" type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                  <div class="form-group">
+                                    <label for="state">State</label>
+                                    <select id="state" class="form-control">
+                                        <option>AP</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                  <div class="form-group">
+                                    <label for="country">Country</label>
+                                    <select id="country" class="form-control">
+                                        <option>INDIA</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="phone">Telephone</label>
+                                    <input id="phone" type="text" class="form-control">
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input id="email" type="text" class="form-control">
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /.row-->
+                            </div>                           
+                          </form>
+                          <form *ngIf="checkoutTwo">
+                            <h1>Checkout - Delivery method</h1>
+                            <div class="nav flex-column flex-sm-row nav-pills"><a href="javascript:void(0)" class="nav-link flex-sm-fill text-sm-center"> <i class="fa fa-map-marker">                  </i>Address</a><a href="checkout2.html" class="nav-link flex-sm-fill text-sm-center active"> <i class="fa fa-truck">                       </i>Delivery Method</a><a href="#" class="nav-link flex-sm-fill text-sm-center disabled"> <i class="fa fa-money">                      </i>Payment Method</a><a href="#" class="nav-link flex-sm-fill text-sm-center disabled"> <i class="fa fa-eye">                     </i>Order Review</a></div>
+                            <div class="content py-3">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="box shipping-method">
+                                    <h4>USPS Next Day</h4>
+                                    <p>Get it right on next day - fastest option possible.</p>
+                                    <div class="box-footer text-center">
+                                      <input type="radio" name="delivery" value="delivery1">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="box shipping-method">
+                                    <h4>USPS Next Day</h4>
+                                    <p>Get it right on next day - fastest option possible.</p>
+                                    <div class="box-footer text-center">
+                                      <input type="radio" name="delivery" value="delivery2">
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                              </div>
+                            </div>   
+                          </form>
+                          <form *ngIf="checkoutThree">
+                            <h1>Checkout - Payment method</h1>
+                            <div class="nav flex-column flex-sm-row nav-pills"><a href="checkout1.html" class="nav-link flex-sm-fill text-sm-center"> <i class="fa fa-map-marker">                  </i>Address</a><a href="checkout2.html" class="nav-link flex-sm-fill text-sm-center"> <i class="fa fa-truck">                       </i>Delivery Method</a><a href="checkout3.html" class="nav-link flex-sm-fill text-sm-center active"> <i class="fa fa-money">                      </i>Payment Method</a><a href="#" class="nav-link flex-sm-fill text-sm-center disabled"> <i class="fa fa-eye">                     </i>Order Review</a></div>
+                            <div class="content py-3">
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="box payment-method">
+                                    <h4>Payment gateway</h4>
+                                    <p>VISA and Mastercard only.</p>
+                                    <div class="box-footer text-center">
+                                      <input type="radio" name="payment" value="payment2">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="box payment-method">
+                                    <h4>Cash on delivery</h4>
+                                    <p>You pay when you get it.</p>
+                                    <div class="box-footer text-center">
+                                      <input type="radio" name="payment" value="payment3">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /.row-->
+                            </div>
+                            <!-- /.content-->
+                         
+                          </form>
+                          <form *ngIf="checkoutFour">
+                            <h1>Checkout - Order review</h1>
+                            <div class="nav flex-column flex-sm-row nav-pills"><a href="checkout1.html" class="nav-link flex-sm-fill text-sm-center"> <i class="fa fa-map-marker">                  </i>Address</a><a href="checkout2.html" class="nav-link flex-sm-fill text-sm-center"> <i class="fa fa-truck">                       </i>Delivery Method</a><a href="checkout3.html" class="nav-link flex-sm-fill text-sm-center"> <i class="fa fa-money">                      </i>Payment Method</a><a href="#" class="nav-link flex-sm-fill text-sm-center active"> <i class="fa fa-eye">                     </i>Order Review</a></div>
+                            <div class="content">
+                              <div class="table-responsive">
+                                <table class="table">
+                                  <thead>
+                                    <tr>
+                                      <th colspan="2">Product</th>
+                                      <th>Quantity</th>
+                                      <th>Unit price</th>
+                                      <th>Discount</th>
+                                      <th>Total</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td><a href="#"><img src="assets/images/detailsquare.jpg" alt="White Blouse Armani"></a></td>
+                                      <td><a href="#">White Blouse Armani</a></td>
+                                      <td>2</td>
+                                      <td>$123.00</td>
+                                      <td>$0.00</td>
+                                      <td>$246.00</td>
+                                    </tr>
+                                    <tr>
+                                      <td><a href="#"><img src="assets/images/basketsquare.jpg" alt="Black Blouse Armani"></a></td>
+                                      <td><a href="#">Black Blouse Armani</a></td>
+                                      <td>1</td>
+                                      <td>$200.00</td>
+                                      <td>$0.00</td>
+                                      <td>$200.00</td>
+                                    </tr>
+                                  </tbody>
+                                  <tfoot>
+                                    <tr>
+                                      <th colspan="5">Total</th>
+                                      <th>$446.00</th>
+                                    </tr>
+                                  </tfoot>
+                                </table>
+                              </div>
+                              <!-- /.table-responsive-->
+                            </div>
+                            <!-- /.content-->
+                           
+                          </form>
+
+                            <!-- /.table-responsive-->
+                            <div class="box-footer d-flex justify-content-between flex-column flex-lg-row">
+                                <ng-container *ngIf="cartPage">
+                                    <div class="left"  (click)="gotoCart()"><a href="javascript:void(0)" class="btn btn-outline-secondary"><i
+                                                class="fa fa-chevron-left"></i> Continue shopping</a></div>
+                                    <div class="right">
+                                        <button class="btn btn-outline-secondary"><i class="fa fa-refresh"></i> Update
+                                            cart</button>
+                                        <button  (click)="checkout()" class="btn btn-primary">Proceed to checkout <i
+                                                class="fa fa-chevron-right"></i></button>
+                                    </div>
+                                </ng-container>
+                                <ng-container *ngIf="checkoutOne">
+                                    <div class="left" (click)="gotoBasket()"><a href="javascript:void(0)" class="btn btn-outline-secondary"><i
+                                        class="fa fa-chevron-left"></i> Back to Basket</a></div>
+                            <div class="right">                              
+                                <button (click)="gotoDelivery()" class="btn btn-primary">Continue to Delivary Method <i
+                                        class="fa fa-chevron-right"></i></button>
+                            </div>
+
+                                </ng-container>
+                                <ng-container *ngIf="checkoutTwo">
+                                    <div class="left" (click)="gotoAddress()"><a href="javascript:void(0)" class="btn btn-outline-secondary"><i
+                                        class="fa fa-chevron-left"></i> Back to Address</a></div>
+                            <div class="right">                              
+                                <button type="submit"  (click)="gotoPayment()" class="btn btn-primary">Continue to Payment Method <i
+                                        class="fa fa-chevron-right"></i></button>
+                            </div>
+                                </ng-container>
+                                <ng-container *ngIf="checkoutThree">
+                                    <div class="left" (click)="backtoShipping()" ><a href="javascript:void(0)" class="btn btn-outline-secondary"><i
+                                        class="fa fa-chevron-left"></i> Back to Shipping Method</a></div>
+                            <div class="right">                              
+                                <button type="submit" (click)="gotoOrderReview()" class="btn btn-primary">Continue to Order Review <i
+                                        class="fa fa-chevron-right"></i></button>
+                            </div>
+                                </ng-container>
+                                <ng-container *ngIf="checkoutFour">
+                                    <div class="left" (click)="backToPayment()"><a href="javascript:void(0)" class="btn btn-outline-secondary"><i
+                                        class="fa fa-chevron-left"></i> Back to Payment Method</a></div>
+                            <div class="right">                              
+                                <button type="submit" class="btn btn-primary">Place Order <i
+                                        class="fa fa-chevron-right"></i></button>
+                            </div>
+                                </ng-container>
+                            </div>
+                       
+                    </div>
+                    <!-- /.box-->
+                    <div class="row same-height-row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="box same-height">
+                                <h3>You may also like these products</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product same-height">
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                        <div class="front"><a href="detail.html"><img src="assets/images/product2.jpg"
+                                                    alt="" class="img-fluid"></a></div>
+                                        <div class="back"><a href="detail.html"><img src="assets/images/product2_2.jpg"
+                                                    alt="" class="img-fluid"></a></div>
+                                    </div>
+                                </div><a href="detail.html" class="invisible"><img src="assets/images/product2.jpg"
+                                        alt="" class="img-fluid"></a>
+                                <div class="text">
+                                    <h3>Fur coat</h3>
+                                    <p class="price">₹143</p>
+                                </div>
+                            </div>
+                            <!-- /.product-->
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product same-height">
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                        <div class="front"><a href="detail.html"><img src="assets/images/product1.jpg"
+                                                    alt="" class="img-fluid"></a></div>
+                                        <div class="back"><a href="detail.html"><img src="assets/images/product1_2.jpg"
+                                                    alt="" class="img-fluid"></a></div>
+                                    </div>
+                                </div><a href="detail.html" class="invisible"><img src="assets/images/product1.jpg"
+                                        alt="" class="img-fluid"></a>
+                                <div class="text">
+                                    <h3>Fur coat</h3>
+                                    <p class="price">₹143</p>
+                                </div>
+                            </div>
+                            <!-- /.product-->
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product same-height">
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                        <div class="front"><a href="detail.html"><img src="assets/images/product3.jpg"
+                                                    alt="" class="img-fluid"></a></div>
+                                        <div class="back"><a href="detail.html"><img src="assets/images/product3_2.jpg"
+                                                    alt="" class="img-fluid"></a></div>
+                                    </div>
+                                </div><a href="detail.html" class="invisible"><img src="assets/images/product3.jpg"
+                                        alt="" class="img-fluid"></a>
+                                <div class="text">
+                                    <h3>Fur coat</h3>
+                                    <p class="price">₹143</p>
+                                </div>
+                            </div>
+                            <!-- /.product-->
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-9-->
+                <div class="col-lg-4">
+                    <div id="order-summary" class="box">
+                        <div class="box-header">
+                            <h3 class="mb-0">Order summary</h3>
+                        </div>
+                        <p class="text-muted">Shipping and additional costs are calculated based on the values you have
+                            entered.</p>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Order subtotal</td>
+                                        <th>₹446.00</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Shipping and handling</td>
+                                        <th>₹10.00</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Tax</td>
+                                        <th>₹0.00</th>
+                                    </tr>
+                                    <tr class="total">
+                                        <td>Total</td>
+                                        <th>₹456.00</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-header">
+                            <h4 class="mb-0">Coupon code</h4>
+                        </div>
+                        <p class="text-muted">If you have a coupon code, please enter it in the box below.</p>
+                        <form>
+                            <div class="input-group">
+                                <input type="text" class="form-control"><span class="input-group-append">
+                                    <button type="button" class="btn btn-primary"><i
+                                            class="fa fa-gift"></i></button></span>
+                            </div>
+                            <!-- /input-group-->
+                        </form>
+                    </div>
+                </div>
+                <!-- /.col-md-3-->
+            </div>
+        </div>
+    </div>
+</div>

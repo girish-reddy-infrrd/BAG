@@ -1,0 +1,47 @@
+{
+  "data": {
+    "products": [     
+      {
+        "name": "Beans",
+        "key": "beans",
+        "frontImageUrl": "beans",
+        "backImageUrl": "beans",
+        "visibleImageUrl": "beans",
+        "productId": "fruits_oranges",
+        "description": "Beans - 1 Kilo",
+        "MRP" : 20,
+        "discountPrice": 15,
+        "QuantityTitle":"per kilo",
+        "ribbon": "sale"
+      },
+      {
+        "name": "Carrots",
+        "key": "carrots",
+        "frontImageUrl": "carrot",
+        "backImageUrl": "carrot",
+        "visibleImageUrl": "carrot",
+        "productId": "fruits_carrots",
+        "description": "Carrots - 1 Kilo",
+        "MRP" : 25,
+        "discountPrice": 15,
+        "QuantityTitle":"per kilo",
+        "ribbon": "new"
+      },
+      {
+        "name": "Mushroom",
+        "key": "mushrooms",
+        "frontImageUrl": "mushroom",
+        "backImageUrl": "mushroom",
+        "visibleImageUrl": "mushroom",
+        "productId": "fruits_oranges",
+        "description": "Mushroom - 1 Pack",
+        "MRP" : 30,
+        "discountPrice": 15,
+        "QuantityTitle":"per kilo",
+        "ribbon": "gift"
+      }
+    ]
+  },
+  "status": "success",
+  "message": "success"
+}

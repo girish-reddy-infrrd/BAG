@@ -1,0 +1,55 @@
+<section class="">
+    <div class="container" data-aos="fade-up " data-aos-delay="100 ">
+        <div class="row">
+            <div class="col-md-12 col-xs-12 mt-5 col-lg-12 col-sm-12 text-center">
+                <hr class="main_line">
+                <!-- <h1>COVID Warriors</h1> -->
+                <h1>CQS Volunteers</h1>
+            </div>
+        </div>
+
+        <div class="row mt-4" *ngIf="images">
+            <div class="col-md-auto mb-4 col-sm-12 col-xs-12 col-lg-4" *ngFor="let image of images">
+                <div style="width: 100%; position: relative;">
+                    <span class="imageContainer">
+                        <img [src]="image.data" alt="" class="image" style="width: 100%; opacity: 1;">
+                        <div class="overlay" *ngIf="image.text">
+                            <div class="overlayText">
+                                <div class="row">
+                                    <div class="col-md-12 col-xs-12 imageConent col-sm-12 col-lg-12">
+                                        <div class="">
+                                            <span *ngIf="image.location"><strong>Location:</strong> {{image.location}} </span><br>
+                                            <span *ngIf="image.date"><strong>Date: </strong> {{image.date }} </span><br>
+                                            <span *ngIf="image.text">{{image.text}}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+            <!-- <div class="col-md-4 mb-4 col-sm-4 col-xs-4 col-lg-4 text-center image-upload">
+                <label for="file-input" style="padding: 115px;">
+                    <img src="assets/images/add icon.png" alt="">
+                    <P> Add Image</P>
+                </label>
+                <input id="file-input" (change)="onFileChange(₹event,'Picture')" #fileInput type="file"
+                    name="componentFile" class="form-control" accept=".png, .jpg" (click)="fileInput.value = null" />
+            </div> -->
+            <!-- <div class="col-md-4">
+                <img src="assets/images/warrior img 1.png" alt="">
+            </div>
+            <div class="col-md-4">
+                <img src="assets/images/warrior img 2.png" alt="">
+            </div>
+            <div class="col-md-4">
+                <img src="assets/images/warrior img 3.png" alt="">
+            </div>
+            <div class="col-md-4">
+                <img src="assets/images/warrior img 4.png" alt="">
+            </div> -->
+
+        </div>
+    </div>
+</section>

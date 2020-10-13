@@ -1,0 +1,9 @@
+{
+    "status": true,
+    "message": "Issue verifying user",
+    "data": {
+        "isValid": true,
+        "message": "User is valid",
+        "filename": "assets/documents/yelahanka_150_2_14904.pdf"
+    }
+}

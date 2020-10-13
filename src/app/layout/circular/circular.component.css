@@ -1,0 +1,22 @@
+.anchorTag{
+    text-align: center; 
+    text-decoration: underline;
+    color: #0d6efd;   
+    margin-left: 39%;
+    cursor: pointer;
+    margin-bottom:10px;
+    
+}
+a:hover {
+    color: #024dbc;
+  }
+.listClass{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 600px) {
+
+    .anchorTag{      
+        margin-left: 10%;  
+    }
+}

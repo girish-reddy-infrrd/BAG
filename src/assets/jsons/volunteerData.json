@@ -1,0 +1,30 @@
+{
+    "data": {
+      "covidStatistics": {
+        "confirmed": 15231,
+        "inHospital": 7027,
+        "recovered": 6668,
+        "deceased": 172
+      },
+      "squadDetails": {
+        "squadMembers": 1097,
+        "sahayaGroups": 31729
+      },
+      "latestUpdates": [
+        {
+          "title": "Over 4,000 citizens sign up for Home Quarantine squads.",
+          "subTitle": "If they are not found at home, they are booked for violating norms by the flying squad, which includes the police too.",
+          "link": "https://www.newindianexpress.com/cities/bengaluru/2020/jun/30/over-4000-citizens-sign-up-for-home-quarantine-squads-2163134.html",
+          "imgSrc": "assets/images/The-Indian-Express LOGO.png"
+        },
+        {
+          "title": "Citizen squads to watch the quarantined.",
+          "subTitle": "Karnataka has requested citizen groups and members of non-profit organisations to be part of squads..",
+          "link": "https://economictimes.indiatimes.com/news/politics-and-nation/citizen-squads-to-watch-the-quarantined/articleshow/76460250.cms?from=mdr",
+          "imgSrc": "assets/images/The_Economic_Times_logo.png"
+        }
+      ]
+    },
+    "status": "success",
+    "message": "success"
+  }

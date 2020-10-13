@@ -1,0 +1,146 @@
+{
+  "status": true,
+  "message": "",
+  "mapData": [
+    {
+      "latitude": "13.1585788",
+      "SiteStatus": "labelRed",
+      "siteName": "ROYAL ENFIELD - (A UNIT OF EICHER MOTORS LTD)",
+      "siteId": "site_264",
+      "industry": "AUTOMOBILE",
+      "state": "Tamil Nadu",
+      "longitude": "80.2846461",
+      "siteLabel": "MREUEML"
+    },
+    {
+      "latitude": "12.7222015",
+      "SiteStatus": "labelYellow",
+      "siteName": "Ashok Leyland Ltd UNIT - II",
+      "siteId": "site_170",
+      "industry": "AUTOMOBILE",
+      "state": "Tamil Nadu",
+      "longitude": "77.8759844",
+      "siteLabel": "ALL_II"
+    },
+    {
+      "latitude": "12.8464557",
+      "SiteStatus": "labelGreen",
+      "siteName": "Renault Nissan Automotive India Pvt Ltd",
+      "siteId": "site_240",
+      "industry": "AUTOMOBILE",
+      "state": "Tamil Nadu",
+      "longitude": "79.949588",
+      "siteLabel": "RNAIPL"
+    },
+    {
+      "latitude": "12.8459675",
+      "SiteStatus": "labelYellow",
+      "siteName": "Eicher Motors Limited,Unit:Royal Enfield",
+      "siteId": "site_341",
+      "industry": "AUTOMOBILE",
+      "state": "Tamil Nadu",
+      "longitude": "79.932827",
+      "siteLabel": "EMLRF"
+    },
+    {
+      "latitude": "10.8147539",
+      "SiteStatus": "labelGreen",
+      "siteName": "ROYAL ENFIELD",
+      "siteId": "site_241",
+      "industry": "AUTOMOBILE",
+      "state": "Tamil Nadu",
+      "longitude": "79.0944841",
+      "siteLabel": "RE"
+    },
+    {
+      "latitude": "12.7382678",
+      "SiteStatus": "labelGreen",
+      "siteName": "Ashok Leyland Unit I",
+      "siteId": "site_260",
+      "industry": "AUTOMOBILE",
+      "state": "Tamil Nadu",
+      "longitude": "77.7990861",
+      "siteLabel": "ALUI"
+    },
+    {
+      "latitude": "13.104495",
+      "SiteStatus": "labelGreen",
+      "siteName": "Wheels India Limited",
+      "siteId": "site_311",
+      "industry": "AUTOMOBILE",
+      "state": "Tamil Nadu",
+      "longitude": "80.1912459",
+      "siteLabel": "MWIL"
+    },
+    {
+      "latitude": "12.784666",
+      "SiteStatus": "labelGreen",
+      "siteName": "Ford India Private Limited",
+      "siteId": "site_222",
+      "industry": "AUTOMOBILE",
+      "state": "Tamil Nadu",
+      "longitude": "80.017006",
+      "siteLabel": "FIPL"
+    },
+    {
+      "latitude": "13.104495",
+      "SiteStatus": "labelViolet",
+      "siteName": "WHEELS INDIA LTD",
+      "siteId": "site_305",
+      "industry": "AUTOMOBILE",
+      "state": "Andhra Pradesh",
+      "siteLabel": "WIL",
+      "longitude": "80.1934346"
+    },
+    {
+      "latitude": "12.8140163",
+      "SiteStatus": "labelViolet",
+      "siteName": "M/s. TVS Motor Company Limited",
+      "siteId": "site_312",
+      "industry": "AUTOMOBILE",
+      "state": "Tamil Nadu",
+      "longitude": "77.8005343",
+      "siteLabel": "TVSMCL"
+    },
+    {
+      "latitude": "13.097181",
+      "SiteStatus": "labelGreen",
+      "siteName": "Caterpillar India Private Limited",
+      "siteId": "site_228",
+      "industry": "AUTOMOBILE",
+      "state": "Tamil Nadu",
+      "longitude": "79.905560",
+      "siteLabel": "CIPL"
+    },
+    {
+      "latitude": "10.6029284",
+      "SiteStatus": "labelGreen",
+      "siteName": "M/s Rane TRW Steering Systems Ltd",
+      "siteId": "site_324",
+      "industry": "AUTOMOBILE",
+      "state": "Tamil Nadu",
+      "longitude": "78.5386741",
+      "siteLabel": "MRTRW"
+    },
+    {
+      "latitude": "12.9724688",
+      "SiteStatus": "labelGreen",
+      "siteName": "Daimler Industrial Commercial vehicles Pvt Ltd",
+      "siteId": "site_212",
+      "industry": "AUTOMOBILE",
+      "state": "Tamil Nadu",
+      "longitude": "79.8672095",
+      "siteLabel": "DICVPL"
+    }
+  ],
+  "hospitalList": [
+    "Ant-Man",
+    "Aquaman",
+    "Asterix",
+    "The Atom",
+    "The Avengers",
+    "Batgirl",
+    "Batman",
+    "Batwoman"
+  ]
+}
